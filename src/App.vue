@@ -28,7 +28,7 @@ export default {
     // Метод для загрузки задач из tasks.json
     async loadTasksFromJson() {
       try {
-        const response = await fetch("/tasks.json");
+        const response = await fetch("./tasks.json");
         const tasks = await response.json();
         return tasks;
       } catch (error) {
