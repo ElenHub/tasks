@@ -6,7 +6,7 @@
 ## Установка и запуск
 
 1. Клонируйте репозиторий:
-    git clone https://github.com/your-repository-link.git
+    git clone https://github.com/ElenHub/tasks.git
 
 2. Перейдите в директорию проекта:
     cd tasks-app
