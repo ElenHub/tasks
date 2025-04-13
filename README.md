@@ -1,24 +1,20 @@
-# SPA-приложение "Список задач"
+# SPA application "Task List"
 
-## Описание
-Это небольшое SPA-приложение на Vue.js, которое загружает список задач из файла `tasks.json` и позволяет отмечать их как выполненные. Состояние задач сохраняется в локальное хранилище браузера, чтобы при перезагрузке страницы задачи не терялись.
+## Description
+This is a small SPA application in Vue.js that loads a list of tasks from the tasks.json file and allows you to mark them as completed. The task state is saved to the browser's local storage so that tasks are not lost when the page reloads.
 
-## Установка и запуск
+## Install and run
 
-1. Клонируйте репозиторий:
-    git clone https://github.com/ElenHub/tasks.git
+1. Clone the repository: git clone https://github.com/ElenHub/tasks.git
 
-2. Перейдите в директорию проекта:
-    cd tasks-app
+2. Go to the project directory: cd tasks-app
 
-3. Установите зависимости:
-    npm install
+3. Install dependencies: npm install
 
-4. Запустите проект:
-    npm run server
+4. Run the project: npm run server
 
-5. Перейдите в браузер по адресу [http://localhost:8080](http://localhost:8080).
+5. Go to the browser at http://localhost:8080.
 
-## Задачи
-- Загружаются из `tasks.json`.
-- Состояние задач сохраняется в `localStorage`.
+## Tasks
+- Tasks are loaded from `tasks.json`.
+- The status of tasks is stored in `localStorage`.
